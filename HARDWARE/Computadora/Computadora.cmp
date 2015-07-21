@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 19/07/2015 22:29:22
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 21/07/2015 20:36:33
 
 BeginCmp
 TimeStamp = /5452F4B5;
@@ -284,7 +284,7 @@ BeginCmp
 TimeStamp = /5599F414;
 Reference = RV1;
 ValeurCmp = 1K;
-IdModule  = ;
+IdModule  = Pote10Vueltas;
 EndCmp
 
 BeginCmp
@@ -298,7 +298,7 @@ BeginCmp
 TimeStamp = /5451A804;
 Reference = U1;
 ValeurCmp = MAX232;
-IdModule  = ;
+IdModule  = DIP-16__300_ELL;
 EndCmp
 
 BeginCmp
@@ -312,7 +312,7 @@ BeginCmp
 TimeStamp = /54531798;
 Reference = X1;
 ValeurCmp = 20 MHZ;
-IdModule  = ;
+IdModule  = xtal;
 EndCmp
 
 EndListe

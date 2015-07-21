@@ -1,0 +1,80 @@
+PCBNEW-LibModule-V1  21/07/2015 20:34:01
+# encoding utf-8
+Units mm
+$INDEX
+Pote10Vueltas
+xtal
+$EndINDEX
+$MODULE Pote10Vueltas
+Po 0 0 0 15 55AED6E2 00000000 ~~
+Li Pote10Vueltas
+Sc 0
+AR 
+Op 0 0 0
+T0 0 6 1 1 0 0.15 N I 21 N "Pote10Vueltas"
+T1 0 -5 1 1 0 0.15 N V 21 N "VAL**"
+DS 19 -3 32 -3 0.15 21
+DS 32 -3 32 3 0.15 21
+DS 32 3 19 3 0.15 21
+DS 19 -6 19 6 0.15 21
+DS 19 6 12 6 0.15 21
+DS 19 -6 17 -6 0.15 21
+DS 12 -6 17 -6 0.15 21
+DS -8 0 -8 -11 0.15 21
+DS -8 -11 12 -11 0.15 21
+DS -8 0 -8 11 0.15 21
+DS -8 11 12 11 0.15 21
+DS 12 0 12 11 0.15 21
+DS 12 0 12 -11 0.15 21
+$PAD
+Sh "2" C 3.5 3.5 0 0 0
+Dr 2.08 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "1" C 3.5 3.5 0 0 0
+Dr 2.08 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" C 3.5 3.5 0 0 0
+Dr 2.08 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$EndMODULE Pote10Vueltas
+$MODULE xtal
+Po 0 0 0 15 55AED56F 00000000 ~~
+Li xtal
+Sc 0
+AR 
+Op 0 0 0
+T0 0 1.22 1 1 0 0.15 N I 21 N "xtal"
+T1 0 -3.66 1 1 0 0.15 N V 21 N "VAL**"
+DA -2.44 0 -2.44 2.44 900 0.15 21
+DA -2.44 0 -4.88 0 900 0.15 21
+DA 2.44 0 4.88 0 900 0.15 21
+DA 2.44 0 2.44 -2.44 900 0.15 21
+DS -2.44 2.44 2.44 2.44 0.15 21
+DS 2.44 -2.44 -2.44 -2.44 0.15 21
+$PAD
+Sh "1" C 2 2 0 0 0
+Dr 0.43 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.44 0
+$EndPAD
+$PAD
+Sh "2" C 2 2 0 0 0
+Dr 0.43 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.44 0
+$EndPAD
+$EndMODULE xtal
+$EndLIBRARY
