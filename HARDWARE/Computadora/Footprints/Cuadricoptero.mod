@@ -1,10 +1,117 @@
-PCBNEW-LibModule-V1  21/07/2015 20:34:01
+PCBNEW-LibModule-V1  22/07/2015 1:22:25
 # encoding utf-8
 Units mm
 $INDEX
+DB9FCcorregido
 Pote10Vueltas
+pin_array_3x2corregido
+pin_array_6x2corregido
 xtal
 $EndINDEX
+$MODULE DB9FCcorregido
+Po 0 0 0 15 55AF1A74 00000000 ~~
+Li DB9FCcorregido
+Cd Connecteur DB9 femelle couche
+Kw CONN DB9
+Sc 0
+AR /5452FBF6
+Op 0 0 0
+T0 1.27 -10.16 1.524 1.524 0 0.3048 N V 21 N "J1"
+T1 1.27 -3.81 1.524 1.524 0 0.3048 N V 21 N "DB9"
+DS -16.129 2.286 16.383 2.286 0.3048 21
+DS 16.383 2.286 16.383 -15.494 0.3048 21
+DS 16.383 -15.494 -16.129 -15.494 0.3048 21
+DS -16.129 -15.494 -16.129 2.286 0.3048 21
+DS -9.017 -15.494 -9.017 -7.874 0.3048 21
+DS -9.017 -7.874 9.271 -7.874 0.3048 21
+DS 9.271 -7.874 9.271 -15.494 0.3048 21
+DS -7.493 -15.494 -7.493 -24.13 0.3048 21
+DS -7.493 -24.13 7.747 -24.13 0.3048 21
+DS 7.747 -24.13 7.747 -15.494 0.3048 21
+$PAD
+Sh "" C 3.81 3.81 0 0 0
+Dr 3.048 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 12.827 -1.27
+$EndPAD
+$PAD
+Sh "" C 3.81 3.81 0 0 0
+Dr 3.048 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po -12.573 -1.27
+$EndPAD
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po -5.461 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 2 "N-0000045"
+Po -2.667 1.27
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 3 "N-0000046"
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 2.794 1.27
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 5.588 1.27
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po -4.064 -1.27
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 1.397 -1.27
+$EndPAD
+$PAD
+Sh "9" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 4.191 -1.27
+$EndPAD
+$SHAPE3D
+Na "conn_DBxx/db9_female_pin90deg.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE DB9FCcorregido
 $MODULE Pote10Vueltas
 Po 0 0 0 15 55AED6E2 00000000 ~~
 Li Pote10Vueltas
@@ -48,6 +155,174 @@ Ne 0 ""
 Po 5.08 0
 $EndPAD
 $EndMODULE Pote10Vueltas
+$MODULE pin_array_3x2corregido
+Po 0 0 0 15 55AF17D8 00000000 ~~
+Li pin_array_3x2corregido
+Cd Double rangee de contacts 2 x 4 pins
+Kw CONN
+Sc 0
+AR /5451A95C
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "ICSP1"
+T1 0 3.81 1.016 1.016 0 0.2032 N I 21 N "CONN_3X2"
+DS 3.81 2.54 -3.81 2.54 0.2032 21
+DS -3.81 -2.54 3.81 -2.54 0.2032 21
+DS 3.81 -2.54 3.81 2.54 0.2032 21
+DS -3.81 2.54 -3.81 -2.54 0.2032 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 5 "/SCK"
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 2 "/MISO"
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 3 "/MOSI"
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 6 "GND"
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 4 "/RESET"
+Po 2.54 -1.27
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_3x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_array_3x2corregido
+$MODULE pin_array_6x2corregido
+Po 0 0 0 15 55AF1366 00000000 ~~
+Li pin_array_6x2corregido
+Cd Double rangee de contacts 2 x 6 pins
+Kw CONN
+Sc 0
+AR /54530F3A
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.27432 N V 21 N "P1"
+T1 0 3.81 1.016 1.016 0 0.2032 N V 21 N "MOTORS PWM OUTPUT"
+DS -7.62 -2.54 7.62 -2.54 0.3048 21
+DS 7.62 -2.54 7.62 2.54 0.3048 21
+DS 7.62 2.54 -7.62 2.54 0.3048 21
+DS -7.62 2.54 -7.62 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 4 "/PWM3"
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 5 "/PWM4"
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 6 "GND"
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 3 "/PWM2"
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "9" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 6 "GND"
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "10" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 2 "/PWM1"
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "11" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 6 "GND"
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "12" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 6 "GND"
+Po 6.35 -1.27
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_6x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_array_6x2corregido
 $MODULE xtal
 Po 0 0 0 15 55AED56F 00000000 ~~
 Li xtal

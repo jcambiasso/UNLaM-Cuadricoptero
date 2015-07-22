@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:/UNLaM-cuadricoptero/HARDWARE/Computadora/Computadora.sch)
-    (date "19/07/2015 20:16:24")
+    (date "21/07/2015 21:09:07")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref U1)
