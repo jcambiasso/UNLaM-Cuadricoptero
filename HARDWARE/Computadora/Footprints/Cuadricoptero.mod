@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  22/07/2015 1:22:25
+PCBNEW-LibModule-V1  23/07/2015 1:12:09
 # encoding utf-8
 Units mm
 $INDEX
@@ -156,7 +156,7 @@ Po 5.08 0
 $EndPAD
 $EndMODULE Pote10Vueltas
 $MODULE pin_array_3x2corregido
-Po 0 0 0 15 55AF17D8 00000000 ~~
+Po 0 0 0 15 55B06995 00000000 ~~
 Li pin_array_3x2corregido
 Cd Double rangee de contacts 2 x 4 pins
 Kw CONN
@@ -173,21 +173,21 @@ $PAD
 Sh "1" R 1.524 1.524 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 5 "/SCK"
+Ne 1 "+5V"
 Po -2.54 1.27
 $EndPAD
 $PAD
 Sh "2" C 1.524 1.524 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 2 "/MISO"
+Ne 4 "/RESET"
 Po -2.54 -1.27
 $EndPAD
 $PAD
 Sh "3" C 1.524 1.524 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 1 "+5V"
+Ne 6 "GND"
 Po 0 1.27
 $EndPAD
 $PAD
@@ -201,14 +201,14 @@ $PAD
 Sh "5" C 1.524 1.524 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 6 "GND"
+Ne 5 "/SCK"
 Po 2.54 1.27
 $EndPAD
 $PAD
 Sh "6" C 1.524 1.524 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 4 "/RESET"
+Ne 2 "/MISO"
 Po 2.54 -1.27
 $EndPAD
 $SHAPE3D

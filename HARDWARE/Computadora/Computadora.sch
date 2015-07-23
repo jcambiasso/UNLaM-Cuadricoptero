@@ -36,8 +36,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Computadora a bordo - Cuadricoptero"
-Date "22 jul 2015"
-Rev "5"
+Date "23 jul 2015"
+Rev "6"
 Comp "UNLAM"
 Comment1 ""
 Comment2 ""
@@ -402,17 +402,6 @@ RX
 Text Label 6400 4500 0    47   ~ 0
 TX
 $Comp
-L CONN_12 P1
-U 1 1 54530F3A
-P 7950 3300
-F 0 "P1" V 7900 3300 60  0000 C CNN
-F 1 "MOTORS PWM OUTPUT" V 8000 3300 60  0000 C CNN
-F 2 "" H 7950 3300 60  0000 C CNN
-F 3 "" H 7950 3300 60  0000 C CNN
-	1    7950 3300
-	1    0    0    -1  
-$EndComp
-$Comp
 L +5V #PWR29
 U 1 1 545310F5
 P 7500 2650
@@ -738,29 +727,13 @@ Wire Wire Line
 	4000 5000 4000 5050
 Wire Wire Line
 	7500 2650 7500 3750
-Wire Wire Line
-	7500 2850 7600 2850
-Wire Wire Line
-	7500 3150 7600 3150
 Connection ~ 7500 2850
-Wire Wire Line
-	7500 3450 7600 3450
 Connection ~ 7500 3150
-Wire Wire Line
-	7500 3750 7600 3750
 Connection ~ 7500 3450
 Wire Wire Line
-	7400 3650 7600 3650
-Wire Wire Line
 	7400 2750 7400 3950
-Wire Wire Line
-	7600 3350 7400 3350
 Connection ~ 7400 3650
-Wire Wire Line
-	7600 3050 7400 3050
 Connection ~ 7400 3350
-Wire Wire Line
-	7600 2750 7400 2750
 Connection ~ 7400 3050
 Wire Wire Line
 	4450 2800 4400 2800
@@ -1035,14 +1008,6 @@ Wire Wire Line
 	6350 2900 6400 2900
 Wire Wire Line
 	6400 3000 6350 3000
-Wire Wire Line
-	7100 2950 7600 2950
-Wire Wire Line
-	7100 3250 7600 3250
-Wire Wire Line
-	7100 3550 7600 3550
-Wire Wire Line
-	7100 3850 7600 3850
 Wire Wire Line
 	6400 3100 6350 3100
 Wire Wire Line
@@ -1512,4 +1477,72 @@ Text Notes 650  6750 0    60   ~ 0
 - Agregado conector macho 2x5 para placa de sensores
 Text Notes 10050 2650 3    60   ~ 0
 Macho
+$Comp
+L CONN_3 K2
+U 1 1 55B038EF
+P 7950 2850
+F 0 "K2" V 7900 2850 50  0000 C CNN
+F 1 "CONN_3" V 8000 2850 40  0000 C CNN
+F 2 "" H 7950 2850 60  0000 C CNN
+F 3 "" H 7950 2850 60  0000 C CNN
+	1    7950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K3
+U 1 1 55B038FE
+P 7950 3150
+F 0 "K3" V 7900 3150 50  0000 C CNN
+F 1 "CONN_3" V 8000 3150 40  0000 C CNN
+F 2 "" H 7950 3150 60  0000 C CNN
+F 3 "" H 7950 3150 60  0000 C CNN
+	1    7950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K4
+U 1 1 55B0390D
+P 7950 3450
+F 0 "K4" V 7900 3450 50  0000 C CNN
+F 1 "CONN_3" V 8000 3450 40  0000 C CNN
+F 2 "" H 7950 3450 60  0000 C CNN
+F 3 "" H 7950 3450 60  0000 C CNN
+	1    7950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K5
+U 1 1 55B0391C
+P 7950 3750
+F 0 "K5" V 7900 3750 50  0000 C CNN
+F 1 "CONN_3" V 8000 3750 40  0000 C CNN
+F 2 "" H 7950 3750 60  0000 C CNN
+F 3 "" H 7950 3750 60  0000 C CNN
+	1    7950 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3850 7100 3850
+Wire Wire Line
+	7100 3550 7600 3550
+Wire Wire Line
+	7100 3250 7600 3250
+Wire Wire Line
+	7100 2950 7600 2950
+Wire Wire Line
+	7600 2750 7400 2750
+Wire Wire Line
+	7400 3050 7600 3050
+Wire Wire Line
+	7600 2850 7500 2850
+Wire Wire Line
+	7600 3150 7500 3150
+Wire Wire Line
+	7600 3350 7400 3350
+Wire Wire Line
+	7600 3450 7500 3450
+Wire Wire Line
+	7600 3650 7400 3650
+Wire Wire Line
+	7500 3750 7600 3750
 $EndSCHEMATC

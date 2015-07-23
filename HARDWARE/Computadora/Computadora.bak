@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Computadora-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Computadora a bordo - Cuadricoptero"
-Date "14 jul 2015"
+Date "22 jul 2015"
 Rev "5"
 Comp "UNLAM"
 Comment1 ""
@@ -1426,12 +1427,12 @@ Wire Wire Line
 $Comp
 L PWR_FLAG #FLG4
 U 1 1 55A55072
-P 3700 1000
-F 0 "#FLG4" H 3700 1095 30  0001 C CNN
-F 1 "PWR_FLAG" H 3700 1180 30  0000 C CNN
-F 2 "" H 3700 1000 60  0000 C CNN
-F 3 "" H 3700 1000 60  0000 C CNN
-	1    3700 1000
+P 3700 950
+F 0 "#FLG4" H 3700 1045 30  0001 C CNN
+F 1 "PWR_FLAG" H 3700 1130 30  0000 C CNN
+F 2 "" H 3700 950 60  0000 C CNN
+F 3 "" H 3700 950 60  0000 C CNN
+	1    3700 950 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1448,7 +1449,7 @@ $EndComp
 Wire Wire Line
 	3900 1000 3900 950 
 Wire Wire Line
-	3700 1250 3700 1000
+	3700 950  3700 1250
 Wire Wire Line
 	3700 1750 3700 2050
 Wire Wire Line

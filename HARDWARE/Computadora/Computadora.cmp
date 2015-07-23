@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 21/07/2015 21:12:08
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 22/07/2015 21:41:45
 
 BeginCmp
 TimeStamp = /5452F4B5;
@@ -162,10 +162,31 @@ IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /54530F3A;
-Reference = P1;
-ValeurCmp = MOTORS PWM OUTPUT;
-IdModule  = pin_array_6x2;
+TimeStamp = /55B038EF;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B038FE;
+Reference = K3;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B0390D;
+Reference = K4;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B0391C;
+Reference = K5;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
